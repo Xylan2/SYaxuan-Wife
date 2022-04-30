@@ -1,0 +1,21 @@
+.cooper {
+    height: 640px;
+    width: 900px;
+    /* background-color: red; */
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.cooper h1 {
+    text-align: center;
+}
+.cooper h3 {
+    line-height: 25px;
+}
+.cooper p {
+    text-indent: 2em;
+    line-height: 30px;
+}
+.cooper h4 {
+    margin-top: 15px;
+}

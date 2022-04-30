@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?4i58fj');
+    src:  url('../fonts/icomoon.eot?4i58fj#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?4i58fj') format('truetype'),
+      url('../fonts/icomoon.woff?4i58fj') format('woff'),
+      url('../fonts/icomoon.svg?4i58fj#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+.bigtop {
+    width: 1280px;
+    height: 155px;
+    background: url(../images/toppic.png) no-repeat;
+}
+.shortcut {
+    width: 1280px;
+    height: 54px;
+    background-color: rgba(0, 0, 0, .2);
+}
+.left {
+    float: left;
+    width: 64px;
+    height: 54px;
+    margin-left: 12px;
+    /* background: url(../images/logo.png) no-repeat center; */
+}
+.left a {
+    display: block;
+    width: 64px;
+    height: 54px;
+    font-size: 0;
+    background: url(../images/logo.png) no-repeat center;
+}
+.lleft li {
+    float: left;
+    height: 32px;
+    margin: 11px 8px;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    transition: all .5s;
+}
+.lleft li:hover {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 5px;
+}
+.lleft li:first-child::after {
+    content: '';
+    font-family: 'icomoon';
+    line-height: 32px;
+    font-size: 16px;
+    float: right;
+    margin-left: 4px;
+    color: white;
+}
+.right {
+    float: left;
+    width: 270px;
+    height: 54px;
+    margin-left: 20px;
+}
+.right li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    margin: 11px 6px;
+    transition: all .5s;
+}
+.right li:hover {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 5px;
+}
+.right li:first-child {
+    margin-left: 0;
+}
+.center {
+    float: left;
+    width: 457px;
+    height: 40px;
+    margin: 7px 10px;
+    border-radius: 7px;
+    background-color: white;
+}
+.nav_serch {
+    float: left;
+    width: 403px;
+    height: 32px;
+    /* background-color: red; */
+    margin: 4px 0 4px 4px;
+}
+.center .nav_serch input {
+    display: block;
+    width: 367px;
+    height: 20px;
+    margin: 6px auto;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+.center .but button{
+    font-family: 'icomoon';
+    width: 36px;
+    height: 36px;
+    margin: 2px;
+    line-height: 36px;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    border: 0;
+    transition: all 0.5s ;
+}
+.center .but button:hover {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+.headpic {
+    float: left;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-image: url(https://i1.hdslb.com/bfs/face/df22a8d6aa975be2ccf960c9cfcec1c4de09f5e8.jpg@150w_150h.jpg);
+    background-size: 32px 32px;
+    border: 1px white solid;
+    margin: 11px 0;
+    margin-left: 5px;
+}
+.bigtop .wel {
+    width: 1280px;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    /* background-color: red; */
+}
+footer {
+    position: absolute;
+    top: 2000px;
+    left: 0;
+    background-color: #f4f4f4;
+    height: 150px;
+    width: 1280px;
+    border-top:1px dotted #666 ;
+}
+.intruduce {
+    float: left;
+    margin-top: 10px;
+    margin-left: 180px;
+    /* background-color: red; */
+    width: 200px;
+    height: 150px;
+    text-align: center; 
+}
+.intruduce h4 {
+    margin-top: 10px;
+}
+.intruduce h4 a {
+    color: #666;
+}
+.help {
+    float: left;
+    margin-top: 10px;
+    /* background-color: red; */
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin-left: 180px;
+}
+.help h4 {
+    margin-top: 10px;
+}
+.help h4 a {
+    color: #666;
+}
+.ask {
+    float: left;
+    margin-top: 10px;
+    /* background-color: red; */
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin-left: 180px;
+}
+.ask h4 {
+    margin-top: 30px;
+}
+.ask h4 a {
+    color: #666;
+}

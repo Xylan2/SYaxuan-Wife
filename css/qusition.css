@@ -1,0 +1,11 @@
+.qusition {
+    height: 420px;
+    width: 900px;
+    /* background-color: red; */
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.qusition li {
+    line-height: 40px;
+}

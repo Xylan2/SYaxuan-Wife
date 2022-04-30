@@ -1,0 +1,14 @@
+.int {
+    height: 420px;
+    width: 900px;
+    /* background-color: red; */
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.int h1 {
+    text-align: center;
+}
+.int h4 {
+    margin-top: 15px;
+}

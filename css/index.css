@@ -1,0 +1,623 @@
+.ht {
+    height: 30px;
+    font-size: 20px;
+    text-indent: 9px;
+    font-family: 'icomoon';
+    border: 1px solid black;
+    border-radius: 3px;
+    line-height: 15px;
+    margin-top: 2px;
+}
+.ht::after {
+    content: '';
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(128, 255, 0, 0.486);
+    margin-top: 8px;
+}
+.hot {
+    position: relative;
+    width: 1280px;
+    height: 420px;
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /* background-color: red; */
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.tbpromo {
+    float: left;
+    position: relative;
+    width: 460px;
+    height: 259px;
+    background-color: pink;
+    margin: 10px;
+    border-radius: 10px;
+}
+.prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -15px;
+    width: 20px;
+    height: 30px;
+    background-color: rgba(0, 0,0, .4);
+    border-radius: 0 15px 15px 0;
+}
+.prev a,
+.next a {
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.next {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 20px;
+    height: 30px;
+    background-color: rgba(0, 0,0, .4);
+    border-radius: 15px 0 0 15px;
+}
+a:hover {
+    color: blue;
+}
+.nav {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    margin-left: -35px;
+    width: 70px;
+    height: 13px;
+    background-color: rgb(255, 255, 255,.4);
+    border-radius: 7px;
+}
+.tbpromo .nav ul li {
+    float: left;
+    background-color: #fff;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.cort {
+    float: left;
+    height: 400px;
+    width: 240px;
+    /* background-color: yellow; */
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.cort a {
+    display: block;
+}
+.cort img {
+    width: 100%;
+    height: 160px;
+    text-align: center;
+}
+.cort a::after {
+    display: block;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.cort .q::after {
+    content: "现实主义勇者的王国";
+}
+.cort .w::after {
+    content: "小龙家的龙女仆第一季";
+}
+.cort .e::after {
+    content: "小龙家的龙女仆第二季";
+}
+.cort .r::after {
+    content: "致不灭的你";
+}
+.cort .t::after {
+    content: "擅长作弄的高木同学";
+}
+.cort .y::after {
+    content: "青梅竹马绝对不会输";
+}
+.cort .w,
+.cort .r,
+.cort .y {
+    margin-top: 25px;
+}
+.rank {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 460px;
+    height: 130px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: url(../images/背景.jpeg) no-repeat;
+    background-size: 460px 130px;
+    /* background-color: blanchedalmond; */
+}
+.rank span {
+    display: block;
+    height: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    color: orange;
+    text-indent: 12px;
+    font-weight: 400;
+}
+.rank  li {
+    margin-top: 5px;
+    margin-left: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    /* background-color: red; */
+}
+.rank  li a {
+    display: block;
+    color: black;
+    font-family: 'icomoon';
+    transition: all .5s;
+}
+.rank  li .qw::after {
+    float: right;
+    content: '';
+    margin-right: 60px;
+    color: red;
+}
+.rank  li .we::after {
+    float: right;
+    content: '';
+    margin-right: 60px;
+    color: rgba(255, 0, 0, 0.664);
+}
+.rank  li .er::after {
+    float: right;
+    content: '';
+    margin-right: 60px;
+    color: rgba(255, 0, 0, 0.199);
+}
+.rank  li .rt::after {
+    float: right;
+    content: '';
+    margin-right: 60px;
+    color: rgba(0, 0, 0, 0.315);
+}
+.rank  li a:hover {
+    color: red;
+    border-radius: 5px;
+    background-color: rgba(0, 0,0, .4);
+}
+.cort a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+.mask::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 240px;
+    height: 160px;
+    background:url(../images/播放.png) no-repeat center;
+    transition: all 1s;
+}
+.mask:hover::before  {
+    display: block;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+.return {
+    position: absolute;
+    right:18px;
+    top: 1967px;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    background-color: red;
+}
+.return a:hover {
+    color: green;
+}
+.live {
+    height: 54px;
+    width: 1280px;
+    border: 1px solid red;
+    border-top: 0;
+    border-radius: 10px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.allclassify {
+    float: left;
+    width: 100px;
+    height: 52px;
+    background-color: coral;
+    /* padding-right: 10px; */
+    /* background-color: yellow; */
+}
+.allclassify .dt {
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 10px;
+    line-height: 52px;
+    text-indent: 12px;
+    text-align: center;
+}
+.allclassify .dd li {
+    width: 100px;
+    height: 20px;
+    /* background-color: red; */
+    margin-top: 2px;
+    font-size: 15px;
+
+}
+.allclassify .dd a {
+    display: block;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    transition: all .6s;
+}
+.allclassify .dd a:hover {
+    background-color: rgba(0, 0,0, .4);
+    border-radius: 8px;
+}
+.allclassify .dd {
+    position: relative;
+    float: left;
+    display: none;
+    width: 100px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: coral;
+    z-index: 1;
+    transition: all .6s;
+}
+.allclassify:hover .dd{ 
+    display:block;
+    cursor: pointer;
+}
+.usually {
+    float: left;
+    height: 52px;
+    width: 1050px;
+    margin-left: 20px;
+    /* background-color: yellow; */
+}
+.usually h4 {
+    line-height: 52px;
+    float: left;
+    width: 60px;
+    height: 52px;
+    font-size: 14px;
+    text-align: center;
+    /* background-color: red; */
+}
+.usually li {
+    float: left;
+    width: 140px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    margin: 2px 20px;
+    text-align: center;
+}
+.usually li a {
+    display: block;
+    color: black;
+    background-color: rgba(112, 216, 152, 0.4);
+    border-radius: 10px;
+    transition: all ease-in .4s;
+}
+.usually li a:hover {
+    color: red;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 14px;
+}
+.live .add button {
+    float: right;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin: 6px 10px 6px 50px;
+    transition: all .5s;
+}
+.live .add button:hover {
+    background-color: #666;
+}
+.liveput {
+    width: 1280px;
+    height: 480px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-top: 0;
+    background-color: blanchedalmond;
+    font-family: 'icomoon';
+}
+.liveput img {
+    width: 210px;
+    height: 120px;
+}
+.liveput h1 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-indent: 20px;
+}
+.liveput li {
+    float: left;
+    position: relative;
+    width: 210px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(194, 181, 181);
+}
+.liveput li a:hover {
+    color: red;
+}
+.liveput li::before {
+    position: absolute;
+    top: -25px;
+    left: -12px;
+    content: '';
+    font-size: 30px;
+    color: red;
+}
+.liveput li .ifm {
+    width: 210px;
+    height: 50px;
+    margin: 5px 0 5px 0;
+    /* background-color: red; */
+}
+.liveput li .ifm span {
+    display: block;
+    height: 20px;
+    text-indent: 10px;
+    line-height: 20px;
+    font-size: 16px;
+}
+.liveput li .ifm i {
+    display: inline-block;
+    height: 20px;
+    text-indent: 10px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+}
+.cartbox {
+    width: 1280px;
+    height: 420px;
+    /* background-color: red; */
+}
+.cartbox .classly {
+    width: 1280px;
+    height: 40px;
+    border: 1px solid black;
+    border-top: 0;
+    border-radius: 10px;
+    background-color: rgba(128, 255, 0, 0.486);
+}
+.cartbox .classly a {
+    float: left;
+    display: block;
+    height: 40px;
+    font-size: 14px;
+    color: royalblue;
+    line-height: 40px;
+    margin: 0 15px;
+    transition: all .7s;
+}
+.cartbox .classly a:hover {
+    color: orange;
+    border-radius: 5px;
+    background-color: rgba(0, 0,0, .4);
+}
+.cartbox .classly a:last-of-type {
+    float: right;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.cartbox .classly a:last-of-type:hover {
+    background-color: rgba(0, 0,0, .4);
+}
+.cartbox span {
+    position: relative;
+    display: block;
+    float: left;
+    height: 355px;
+    width: 222px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-left: 15px;
+    /* background-color: orange; */
+}
+.cartbox span a {
+    display: block;
+    height: 355px;
+    width: 222px;
+}
+.cartbox span::before {
+    content: '立即追漫';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 222px;
+    height: 355px;
+    line-height: 355px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(145, 35, 35);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .3);
+    transition: all 0.6s ease 0s;
+}
+span:hover::before  {
+    display: block;
+}
+.cartbox .right {
+    float: right;
+    width: 280px;
+    height: 355px;
+    margin-right: 30px;
+    margin-top: 12px;
+    background-color: rgba(0, 0,0, .7);
+    border-radius: 10px;
+}
+.cartbox .right strong {
+    display: block;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom:1px dotted rgba(128, 255, 0, 0.486);
+    color: sandybrown;
+}
+.cartbox .right .zuorank,
+.cartbox .right .yuorank {
+    float: left;
+    height: 300px;
+    width: 120px;
+    margin-left: 13px;
+    margin-top: 5px;
+    /* background-color: seagreen; */
+}
+.cartbox .right .zuorank li,
+.cartbox .right .yuorank li {
+    height: 20px;
+    width: 110px;
+    margin: 8px;
+}
+.cartbox .right .zuorank a,
+.cartbox .right .yuorank a {
+    display: block;
+    height: 20px;
+    width: 110px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    transition: all .5s;
+}
+.cartbox .right .zuorank a:hover,
+.cartbox .right .yuorank a:hover {
+    background-color: rgba(0, 0,0, .4);
+    border-radius: 5px;
+    color: salmon;
+}
+.lf img {
+    width: 10px;
+}
+.cartbox .right .zuorank a .lf,
+.cartbox .right .yuorank a .lf {
+    float: right;
+}
+.gamebloack {
+    width: 1280px;
+    height: 320px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* background-color: red; */
+}
+.gamebloack .gemerank {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.gamebloack .gemerank header {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: blueviolet;
+}
+.gamebloack .gemerank article {
+    width: 90%;
+    height: 240px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.gamebloack .gemerank article li {
+    display: block;
+    height: 20px;
+    width: 110px;
+    margin: 10px auto;
+}
+.gamebloack .gemerank article .lf {
+    float: right;
+}
+.gamebloack .gemerank article a {
+        display: block;
+        height: 20px;
+        width: 110px;
+        font-size: 12px;
+        text-align: left;
+        line-height: 20px;
+        transition: all .5s;
+ }
+ .gamebloack .gemerank article a:hover {
+    background-color: rgba(0, 0,0, .4);
+    border-radius: 5px;
+ }
+ .gamebloack .background {
+     float: right;
+     width: 750px;
+     height: 320px;
+     text-align: center;
+ }
+ .gamebloack .tips {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: burlywood;
+ }
+ .gamebloack .tips span {
+     float: left;
+     width: 140px;
+     height: 60px;
+     margin-left: 5px;
+     margin-top: 10px;
+     font-size: 20px;
+     text-align: center;
+     line-height: 60px;
+     transition: all .6s;
+ }
+ .gamebloack .tips span:hover {
+     cursor: pointer;
+     background-color: rgba(0, 0,0, .4);
+     border: 1px solid black;
+     border-radius: 10px;
+     color: red;
+     font-size: 22px;
+ }

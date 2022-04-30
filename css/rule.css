@@ -1,0 +1,14 @@
+.rules {
+    height: 420px;
+    width: 900px;
+    /* background-color: red; */
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.rules h1 {
+    text-align: center;
+}
+.rules h4 {
+    margin-top: 15px;
+}
